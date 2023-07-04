@@ -1,0 +1,71 @@
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-color: azure;
+  }
+  
+  .Auth-form {
+    width: 450px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .Auth-form-judul {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  .Auth-form-title {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    margin-left: 5px;
+    margin-right: 50px;
+  }
+  .form-control {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .tabel-form {
+    margin-top: 10px;
+  }
+
+  .button-submit
+  {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #3b5998;
+    justify-content: center;
+
+  }
+
+  .button-text {
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+  }
